@@ -1,2 +1,2 @@
 # Estudo-JS
-Projeto cirado para estudo do JavaScript
+Projeto criado para estudo do JavaScript
