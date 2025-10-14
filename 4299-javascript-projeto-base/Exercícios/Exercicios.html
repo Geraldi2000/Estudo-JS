@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo de JavaScript Externo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div style="display: flex; gap: 50px;flex-direction: column; justify-content: center;">
+            <section>
+                <h2>Lista de Presença</h2>
+                <form>
+                    <input type="text" id="meu-input" placeholder="Digite algo aqui">
+                    <br>
+                    <button type="button" id="meu-botao">Salvar</button>
+                </form>
+
+                <ul class="Lista-de-presenca" id="Lista-de-presenca">
+                    <li>
+                        <div class="lista-item-container">
+                            <input type="checkbox" id="checkbox-0" />
+                            <p>Nome do Aluno</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <hr style="margin-top: 20px; margin-bottom: 20px;">
+
+            <section>
+                <h2>Lista de Tarefas</h2>
+                <form>
+
+                    <input class="input-item" type="text" id="tarefa-input" placeholder="Digite a tarefa que deseja adicionar"></input>
+                    
+                    <br>
+
+                    <button class="button-item" id="botao-salvar-tarefa">Salvar tarefa</button>
+
+                </form>
+
+                <ul class="Lista-de-tarefas" id="Lista-de-tarefas">
+                    <li>
+                        <div class="lista-item-container">
+                            <input type="checkbox" id="checkbox-0" />
+                            <p>Nome da Tarefa</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+
+
+
+
+
+
+    <script src="exercicios.js"></script>
+</body>
+
+</html>
