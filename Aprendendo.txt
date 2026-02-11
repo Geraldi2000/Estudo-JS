@@ -1,0 +1,11 @@
+Tipos de eventos
+
+type: diz qual foi o tipo do evento (click, mouseover, keyup, etc.).
+
+target: refere-se ao elemento que disparou o evento.
+
+currentTarget: semelhante ao target, mas se refere ao elemento ao qual o evento foi realmente atribuído.
+
+clientX / clientY: fornece a posição horizontal e vertical do mouse quando um evento do mouse foi disparado.
+
+keyCode: no caso de um evento de teclado, diz qual tecla foi pressionada.
